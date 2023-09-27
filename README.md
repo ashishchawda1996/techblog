@@ -11,6 +11,6 @@
 7) Run `$ celery -A techblog worker --loglevel=INFO` command to run celery server on your local machine.
 
 ##### Steps to be followed for first time use
-# Email Settings
-  EMAIL_HOST_USER='your email'
-  EMAIL_HOST_PASSWORD='your password'
+##### Email Settings
+     EMAIL_HOST_USER = 'your email'
+     EMAIL_HOST_PASSWORD = "your password"
