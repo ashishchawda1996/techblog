@@ -1,6 +1,17 @@
 # techblog
+This is a "Blogging Platform" which gives all general features a blog should have.
+#### Features
+	* Login/Registration
+	* Minimal Design
+	* User Profile
+	* Admin Panel
+		* Create/View/Edit/Delete A User
+		* Create/View/Edit/Delete A Post By Any User
+		* View/Edit/Delete All Comments In The Blog
+		* View/Edit/Delete All Comments To A Specific Post
+		* Publish/Unpublish A Post
 
-##### Steps to install and run techblog on your local machine.
+#### Steps to install and run techblog on your local machine.
 1) Run `$ pip install virtualenv` command to install virtual environment.
 2) Run `$ virtualenv env -p python3.8.10` command to Create Virtual environment.
 3) Run `$ source env/bin/activate` command to activate virtual environment.
@@ -10,7 +21,7 @@
 6) Run `$ python manage.py runserver` command to run project on your local machine.
 7) Run `$ celery -A techblog worker --loglevel=INFO` command to run celery server on your local machine.
 
-##### Steps to be followed for first time use
+#### Steps to be followed for first time use
 ##### Email Settings
      EMAIL_HOST_USER = 'your email'
      EMAIL_HOST_PASSWORD = "your password"
